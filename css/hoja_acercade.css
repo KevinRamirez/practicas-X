@@ -1,0 +1,158 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	align-items: center;
+}
+
+body{
+	color: #fff;
+
+}
+
+
+#contenidoAcerca{
+	padding: 2%;
+	box-sizing: border-box;
+
+}
+
+#CajaDato{
+	padding: 1%;
+	box-sizing: border-box;
+	text-align: center;
+
+	border: 2px solid #E8E8E8;
+	border-radius: 5px;
+}
+
+
+h2{
+	margin-left: 2%;
+	text-align: center;
+
+	text-decoration: underline;
+	margin-bottom: 2%;
+}
+#politica{
+	margin-bottom: 2%;
+}
+
+#politica h1{
+	width: 40%;
+	padding: 1%;
+	box-sizing: border-box;
+	text-align: center;
+
+	border-radius: 0px 10px 0px 0px;
+	border-top: 2px solid #E8E8E8;
+	border-right: 2px solid #E8E8E8;
+	border-left: 2px solid #E8E8E8;
+}
+
+#politica p{
+	width: 90%;
+	padding: 1%;
+	box-sizing: border-box;
+
+	text-align: center;
+	align-items: center;
+
+
+	border:  2px solid
+
+}
+
+#objetivos{
+	margin-bottom: 2%;
+	align-items: center;
+
+}
+
+#objetivos h1{
+
+	width: 40%;
+	padding: 1%;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 0px 10px 0px 0px;
+	border-top: 2px solid #E8E8E8;
+	text-align: center;
+	align-items: center;
+	border-right: 2px solid #E8E8E8;
+	border-left: 2px solid #E8E8E8;
+}
+
+#objetivos p{
+
+	width: 90%;
+	padding: 1%;
+	box-sizing: border-box;
+	text-align: center;
+	align-items: center;
+
+	border:  2px solid #E8E8E8
+}
+
+
+#mision, #vision {
+	margin-bottom: 2%;
+}
+
+#mision h1, #vision h1{
+	width: 40%;
+	padding: 1%;
+	box-sizing: border-box;
+	text-align: center;
+	align-items: center;
+
+	border-radius: 0px 10px 0px 0px;
+	border-top: 2px solid #E8E8E8;
+	border-right: 2px solid #E8E8E8;
+	border-left: 2px solid #E8E8E8;
+}
+
+#mision p, #vision p{
+	width: 90%;
+	padding: 1%;
+	box-sizing: border-box;
+
+
+	border:  2px solid #E8E8E8
+}
+.fancyNav{
+	/* Affects the UL element */
+	overflow: hidden;
+	display: inline-block;
+
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+
+	box-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
+	-moz-box-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
+	-webkit-box-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
+}
+
+.fancyNav li{
+	/* Specifying a fallback color and we define CSS3 gradients for the major browsers: */
+
+	background-color: #f0f0f0;
+	background-image: -webkit-gradient(linear,left top, left bottom,from(#fefefe), color-stop(0.5,#f0f0f0), color-stop(0.51, #e6e6e6));
+	background-image: -moz-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: -o-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: -ms-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+
+	border-right: 1px solid rgba(9, 9, 9, 0.125);
+
+	/* Adding a 1px inset highlight for a more polished efect: */
+
+	box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+	-moz-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+	-webkit-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+
+	position:relative;
+
+	float: left;
+	list-style: none;
+}
